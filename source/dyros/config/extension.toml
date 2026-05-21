@@ -10,7 +10,7 @@ author_email = "jasonshin0537@snu.ac.kr"
 maintainer = "Jaeyong Shin"
 description="Extension providing custom framework interfaces and abstractions for IsaacLab."
 readme  = "docs/README.md"
-repository = "https://github.com/yongarry/isaaclab_dyros"
+repository = "https://github.com/HumanoidWalkingControlHW/isaaclab_dyros_HW"
 category = "robotics"
 keywords = ["robotics", "learning", "ai"]
 

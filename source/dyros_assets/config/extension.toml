@@ -8,10 +8,9 @@ author = "Jaeyong Shin"
 author_email = "jasonshin0537@snu.ac.kr"
 maintainer = "Jaeyong Shin"
 description="Extension containing configuration instances of different assets and sensors"
-readme  = "docs/README.md"
-repository = "https://github.com/yongarry/isaaclab_dyros"
+repository = "https://github.com/HumanoidWalkingControlHW/isaaclab_dyros_HW"
 category = "robotics"
-keywords = ["kit", "robotics", "assets", "isaaclab"]
+keywords = ["robotics", "assets", "isaaclab"]
 
 [dependencies]
 "isaaclab" = {}

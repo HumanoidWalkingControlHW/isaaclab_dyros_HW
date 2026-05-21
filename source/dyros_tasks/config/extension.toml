@@ -10,9 +10,9 @@ author_email = "jasonshin0537@snu.ac.kr"
 maintainer = "Jaeyong Shin"
 description="Extension containing suite of environments for robot learning."
 readme  = "docs/README.md"
-repository = "https://github.com/yongarry/isaaclab_dyros"
+repository = "https://github.com/HumanoidWalkingControlHW/isaaclab_dyros_HW"
 category = "robotics"
-keywords = ["robotics", "rl", "il", "learning"]
+keywords = ["robotics", "rl", "learning"]
 
 [dependencies]
 "isaaclab" = {}
