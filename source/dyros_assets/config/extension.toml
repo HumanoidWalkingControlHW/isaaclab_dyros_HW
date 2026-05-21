@@ -1,0 +1,25 @@
+[package]
+# Semantic Versioning is used: https://semver.org/
+version = "1.0.0"
+
+# Description
+title =  "Dyros Lab Assets"
+author = "Jaeyong Shin"
+author_email = "jasonshin0537@snu.ac.kr"
+maintainer = "Jaeyong Shin"
+description="Extension containing configuration instances of different assets and sensors"
+readme  = "docs/README.md"
+repository = "https://github.com/yongarry/isaaclab_dyros"
+category = "robotics"
+keywords = ["kit", "robotics", "assets", "isaaclab"]
+
+[dependencies]
+"isaaclab" = {}
+"dyros" = {}
+
+[core]
+reloadable = false
+
+# Main python module this extension provides.
+[[python.module]]
+name = "dyros_assets"

@@ -1,0 +1,29 @@
+[package]
+
+# Note: Semantic Versioning is used: https://semver.org/
+version = "1.0.0"
+
+# Description
+title = "Dyros Lab RL"
+author = "Jaeyong Shin"
+author_email = "jasonshin0537@snu.ac.kr"
+maintainer = "Jaeyong Shin"
+description="Extension containing reinforcement learning related utilities."
+readme  = "docs/README.md"
+repository = "https://github.com/yongarry/isaaclab_dyros"
+category = "robotics"
+keywords = ["robotics", "rl", "wrappers", "learning"]
+
+[dependencies]
+"isaaclab" = {}
+"isaaclab_assets" = {}
+"isaaclab_tasks" = {}
+"dyros" = {}
+"dyros_assets" = {}
+"dyros_tasks" = {}
+
+[core]
+reloadable = false
+
+[[python.module]]
+name = "dyros_rl"

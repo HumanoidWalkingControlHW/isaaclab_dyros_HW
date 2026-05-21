@@ -1,0 +1,27 @@
+[package]
+
+# Note: Semantic Versioning is used: https://semver.org/
+version = "1.0.0"
+
+# Description
+title = "Isaac Lab Dyros Environments"
+author = "Jaeyong Shin"
+author_email = "jasonshin0537@snu.ac.kr"
+maintainer = "Jaeyong Shin"
+description="Extension containing suite of environments for robot learning."
+readme  = "docs/README.md"
+repository = "https://github.com/yongarry/isaaclab_dyros"
+category = "robotics"
+keywords = ["robotics", "rl", "il", "learning"]
+
+[dependencies]
+"isaaclab" = {}
+"isaaclab_assets" = {}
+"dyros" = {}
+"dyros_assets" = {}
+
+[core]
+reloadable = false
+
+[[python.module]]
+name = "dyros_tasks"
